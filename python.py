@@ -17,5 +17,5 @@ password=(input("Type new pass: "))
 if password == "ra1820":
     print("Pass is correct")
 else:
-     print("Pass is false")
+     print("Pass is none")
     
