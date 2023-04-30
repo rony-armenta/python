@@ -23,25 +23,25 @@ while multiplicador <=10 :
     multiplicador = multiplicador+1'''
    
 #bucle for-in
-nombres=['Juan', 'Antonio', 'Pedro', 'Yo']
+"""nombres=['Juan', 'Antonio', 'Pedro', 'Yo']
 for nombre in nombres:
-    print (nombre)
+    print (nombre)"""
 #blucle for in range
 '''base =int(input("Type a number:"))
 for exponente in range(1,10):
     potencia = base ** exponente
     print(f"{base} elevado a {exponente} es {potencia}")'''
 
-multiplicando=int(input("Type a number to 0 from 9:"))
-multiplicador=1
+multiplicando=0 #int(input("Type a number to 0 from 9:3"))
+multiplicador=0
 producto=int
-for multipicando in range(1,11):
-    multiplo=multiplicando
+for multipicando in range(0,11):
+    print(f"Resultado for {multiplicando}")
     #print(multipicando)
-    while multiplicador <=10:
-      
+    while multiplicador <=10:      
            producto= multiplicando * multiplicador
-           print(f"{multiplicando} x {multiplicador} = {producto}")
-           #print(multiplicando)
-           #print(multiplicador)
-multiplicador = multiplicador+1
+           print(f"{multiplicando} x {multiplicando} = {producto}")
+           #print(f"Resultado 1 {multiplicando}")
+           #print(f"Resultado 2 {multiplicador}")
+           #print(f"Resultado 3 {multiplo}")
+           multiplicador = multiplicador+1
