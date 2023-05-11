@@ -11,16 +11,16 @@ elif user!="admin" and password!="root":
     print("please re-type user rigth to: " + user + "and pass to:" + password ) '''
 
 #sentence while
-'''multiplicando=1
-multiplicador=1
+'''unidades=1
+decenas=1
 producto=0
 
-while multiplicando <=10:
+while unidades <=10:
 
-while multiplicador <=10 :
-    producto=multiplicando * multiplicador
-    print(f"{multiplicando} x {multiplicador} = {producto}")
-    multiplicador = multiplicador+1'''
+while decenas <=10 :
+    producto=unidades * decenas
+    print(f"{unidades} x {decenas} = {producto}")
+    decenas = decenas+1'''
    
 #bucle for-in
 """nombres=['Juan', 'Antonio', 'Pedro', 'Yo']
@@ -32,16 +32,16 @@ for exponente in range(1,10):
     potencia = base ** exponente
     print(f"{base} elevado a {exponente} es {potencia}")'''
 
-multiplicando=0
-multiplicador=0
+unidades=0
+decenas=0
 producto=0
-for multiplicando in range(0,10):
-    multiplicando=multiplicando+1
-    multiplicador = multiplicador+1
-    #print(f"result for {multiplicador}")    
-    print(multiplicando)
-    while multiplicador <=10 and multiplicando <= 10:      
-           producto= multiplicando * multiplicador
-           print(f"{multiplicando} x {multiplicador} = {producto}")
-           #multiplicador = multiplicador+1
-           multiplicando=multiplicando+1
+for unidades in range(0,10):
+    unidades=0
+    unidades=unidades+1
+    decenas = decenas+1
+    print(f"Tabla del: {decenas}")
+    while unidades <=10 and decenas <=10: 
+           producto= decenas * unidades
+           print(f"{decenas} x {unidades} = {producto}")
+           #decenas = decenas+1
+           unidades=unidades+1
