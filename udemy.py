@@ -35,13 +35,10 @@ for exponente in range(1,10):
 unidades=0
 decenas=0
 producto=0
-for unidades in range(0,10):
+for decenas in range(0,10):
     unidades=0
-    unidades=unidades+1
-    decenas = decenas+1
     print(f"Tabla del: {decenas}")
-    while unidades <=10 and decenas <=10: 
+    while unidades <=10: 
            producto= decenas * unidades
            print(f"{decenas} x {unidades} = {producto}")
-           #decenas = decenas+1
            unidades=unidades+1
